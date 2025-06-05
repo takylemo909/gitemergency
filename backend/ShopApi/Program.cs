@@ -76,3 +76,5 @@ public class BasicAuthHandler : AuthenticationHandler<AuthenticationSchemeOption
         return Task.FromResult(AuthenticateResult.Success(ticket));
     }
 }
+
+public partial class Program { }

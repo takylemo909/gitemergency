@@ -21,3 +21,6 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
+if (typeof module !== 'undefined') {
+  module.exports = App;
+}
